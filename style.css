@@ -1,0 +1,133 @@
+:root {
+  --ink: #e8eaf5;
+  --muted: #9da3bd;
+  --violet: #9b7bff;
+  --blue: #4bc7ec;
+  --panel: rgba(25, 28, 48, .82);
+}
+
+.stApp {
+  background:
+    radial-gradient(ellipse at 82% 0%, rgba(86, 62, 165, .20), transparent 34%),
+    radial-gradient(ellipse at 0% 40%, rgba(19, 105, 142, .10), transparent 32%),
+    #0d0f19;
+  color: var(--ink);
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+h1, h2, h3, [data-testid="stMetricValue"] {
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  letter-spacing: -.035em;
+}
+
+[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, #121426 0%, #10121e 100%);
+  border-right: 1px solid rgba(164, 151, 255, .13);
+}
+
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+  box-sizing: border-box;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: 1.25rem;
+  scrollbar-gutter: stable;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h1 {
+  background: linear-gradient(100deg, #c0aaff, #6cd8f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.65rem;
+}
+
+.main-title {
+  background: linear-gradient(100deg, #c0aaff 4%, #9a7aff 46%, #62d7f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: clamp(2.1rem, 5vw, 3.25rem);
+  font-weight: 700;
+  letter-spacing: -.055em;
+  line-height: 1.1;
+  margin: .15rem 0 .4rem;
+}
+
+.subtitle { color: var(--muted); font-size: 1.02rem; }
+.eyebrow { color: #b6a4ff; font-size: .73rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.hero { background: linear-gradient(120deg, rgba(91, 67, 174, .23), rgba(38, 125, 160, .10)); border: 1px solid rgba(175, 154, 255, .18); border-radius: 20px; padding: 1.5rem 1.7rem; }
+
+[data-testid="stMetric"] {
+  box-sizing: border-box;
+  background: linear-gradient(145deg, rgba(30, 33, 56, .92), rgba(21, 24, 41, .92));
+  border: 1px solid rgba(159, 144, 255, .16);
+  border-radius: 16px;
+  padding: 1rem 1.15rem;
+  min-height: 126px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+[data-testid="stMetricLabel"] {
+  color: var(--muted);
+  min-height: 1.35em;
+  line-height: 1.35;
+}
+[data-testid="stMetricValue"] {
+  color: #f0edff;
+  font-size: clamp(1.05rem, 1.65vw, 1.55rem);
+  line-height: 1.2;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+[data-testid="stMetricValue"] > div {
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+[data-testid="stVerticalBlockBorderWrapper"] { border-color: rgba(154, 145, 210, .16) !important; border-radius: 16px; }
+.stButton > button, .stDownloadButton > button { border-radius: 10px; font-weight: 600; transition: transform .15s ease, border-color .15s ease; }
+.stButton > button:hover, .stDownloadButton > button:hover { transform: translateY(-1px); border-color: #9b7bff; }
+.stButton > button[kind="primary"] {
+  background: linear-gradient(110deg, #8464f5, #426bd0) !important;
+  border: 1px solid rgba(195, 177, 255, .4) !important;
+  color: #fff !important;
+}
+.stButton > button[kind="primary"]:hover {
+  background: linear-gradient(110deg, #967aff, #4f80e8) !important;
+  box-shadow: 0 7px 22px rgba(113, 90, 220, .24);
+}
+.stTextArea textarea, .stTextInput input { background: rgba(20, 22, 38, .82); border-color: rgba(151, 145, 190, .22); border-radius: 12px; }
+.stSelectbox [data-baseweb="select"] > div { background: rgba(20, 22, 38, .82); border-color: rgba(151, 145, 190, .22); border-radius: 10px; }
+.stProgress > div > div { background-image: linear-gradient(90deg, #9b7bff, #4bc7ec); }
+div[data-testid="stAlert"] { border-radius: 12px; }
+
+@media (max-width: 720px) {
+  .hero { padding: 1.15rem; }
+  .main-title { font-size: 2rem; }
+}
+
+@media (max-width: 1080px) {
+  [data-testid="stMain"] [data-testid="stHorizontalBlock"] {
+    flex-wrap: wrap !important;
+    gap: .85rem;
+  }
+
+  [data-testid="stMain"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+    flex: 1 1 calc(50% - .5rem) !important;
+    min-width: calc(50% - .5rem) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  [data-testid="stMain"] [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+    flex-basis: 100% !important;
+    min-width: 100% !important;
+  }
+
+  [data-testid="stMetric"] {
+    min-height: 108px;
+  }
+}

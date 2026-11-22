@@ -1,0 +1,12 @@
+LexiMind AI Classification Benchmark
+
+The original news-topic rows in classification_samples.csv and the curated
+fixture as a whole are dedicated to the public domain under CC0 1.0.
+
+Source: project-authored LexiMind AI benchmark fixture
+License: Creative Commons CC0 1.0 Universal
+URL: https://creativecommons.org/publicdomain/zero/1.0/
+
+No external benchmark articles or third-party text are included in the
+replacement news fixture. The spam rows are retained as a separate local
+educational binary fixture.

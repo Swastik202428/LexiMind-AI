@@ -1,0 +1,129 @@
+task,text,label
+spam,"Congratulations you have won a free prize claim now",Spam
+spam,"Urgent claim your cash reward by clicking this link",Spam
+spam,"Exclusive offer buy now and save big today",Spam
+spam,"You are selected for a free vacation call now",Spam
+spam,"Win money instantly send your bank details",Spam
+spam,"Limited time deal get a discount on your order",Spam
+spam,"Earn extra income from home with this simple offer",Spam
+spam,"Your account won a gift card claim your reward",Spam
+spam,"Free entry in our weekly prize draw reply now",Spam
+spam,"Act now to receive a guaranteed cash bonus",Spam
+spam,"Special promotion just for you buy today",Spam
+spam,"Click here to claim your free mobile phone",Spam
+spam,"You have been chosen to win a luxury trip",Spam
+spam,"Lowest price offer subscribe now for a bonus",Spam
+spam,"Hello are we still meeting for lunch tomorrow",Not spam
+spam,"Please send me the notes from today's lecture",Not spam
+spam,"The project meeting starts at three this afternoon",Not spam
+spam,"Can you review the report before the deadline",Not spam
+spam,"I will call you when I reach the station",Not spam
+spam,"Thanks for helping me prepare for the exam",Not spam
+spam,"Your appointment is confirmed for Monday morning",Not spam
+spam,"Please find the updated assignment attached",Not spam
+spam,"Let us discuss the presentation after class",Not spam
+spam,"The team shared the documents in our folder",Not spam
+spam,"Dinner is ready and we are waiting for you",Not spam
+spam,"I received your message and will reply soon",Not spam
+spam,"The library closes at six today",Not spam
+spam,"Can we reschedule our call for next week",Not spam
+news,"The government announced a new public health policy",Politics
+news,"Parliament debated an education reform bill",Politics
+news,"Voters will choose representatives in the election",Politics
+news,"The president met regional leaders to discuss trade",Politics
+news,"The minister presented a reform package to parliament",Politics
+news,"Officials signed an agreement on border security",Politics
+news,"The opposition proposed changes to the national budget",Politics
+news,"A mayoral candidate outlined plans for public transport",Politics
+news,"The cabinet approved emergency spending for flood relief",Politics
+news,"Senators questioned a senior official about public records",Politics
+news,"The central election commission published final results",Politics
+news,"A coalition government formed after coalition talks",Politics
+news,"The court ruled on a dispute involving campaign finance",Politics
+news,"Civil servants began negotiations over labor agreements",Politics
+news,"The legislature passed a law protecting citizen privacy",Politics
+news,"Diplomats discussed a trade agreement in Geneva",Politics
+news,"The prime minister opened a national infrastructure summit",Politics
+news,"The governor announced grants for local municipalities",Politics
+news,"Lawmakers increased oversight of public contracting",Politics
+news,"A referendum on constitutional reform will be held",Politics
+news,"The company reported higher quarterly revenue",Business
+news,"Markets rose after the central bank changed interest rates",Business
+news,"A startup raised funding to expand operations",Business
+news,"The retailer announced new stores and hiring plans",Business
+news,"Investors watched shares as growth forecasts improved",Business
+news,"The bank reported stronger consumer lending",Business
+news,"The manufacturer expanded a factory in a growing market",Business
+news,"A merger could reshape the regional technology industry",Business
+news,"Oil prices moved higher as supply concerns increased",Business
+news,"The airline announced a new route and increased capacity",Business
+news,"Consumer prices fell for the second month in a row",Business
+news,"A technology firm posted record annual profit",Business
+news,"Small businesses faced higher borrowing costs",Business
+news,"The stock exchange opened higher after earnings reports",Business
+news,"An investment fund acquired a warehouse company",Business
+news,"The retailer cut prices to attract holiday shoppers",Business
+news,"Insurance claims increased after severe storms",Business
+news,"The logistics company added jobs in several cities",Business
+news,"A credit rating agency revised its economic outlook",Business
+news,"Export orders grew while manufacturing costs remained high",Business
+news,"Researchers tested a new treatment in a clinical trial",Science
+news,"The laboratory published evidence about climate change",Science
+news,"Scientists discovered a planet using a space telescope",Science
+news,"The study measured air quality across several cities",Science
+news,"Engineers developed a battery with improved energy storage",Science
+news,"The research team analyzed samples using a new instrument",Science
+news,"Astronomers observed a rare stellar explosion",Science
+news,"Doctors reported progress in a study of a rare disease",Science
+news,"A satellite will map changes in the polar ice",Science
+news,"Biologists sequenced the genome of an endangered species",Science
+news,"Engineers demonstrated a faster data transmission method",Science
+news,"The university opened a center for artificial intelligence research",Science
+news,"A vaccine study entered a new phase of trials",Science
+news,"Researchers found evidence of water beneath the surface",Science
+news,"Robotics scientists tested an autonomous underwater vehicle",Science
+news,"A new telescope captured detailed images of a distant galaxy",Science
+news,"Chemists created a material that absorbs carbon dioxide",Science
+news,"An epidemiology team monitored a new virus outbreak",Science
+news,"The observatory detected a previously unknown asteroid",Science
+news,"Scientists studied the effects of heat on coral reefs",Science
+news,"The team won the championship after a close final match",Sports
+news,"The coach praised players after the tournament victory",Sports
+news,"The striker scored twice in the league game",Sports
+news,"Fans watched the final as players competed for the cup",Sports
+news,"The athlete broke a record at the national competition",Sports
+news,"Training begins before the next international season",Sports
+news,"The football club signed a midfielder for next season",Sports
+news,"The tennis champion defeated a rival in straight sets",Sports
+news,"The basketball team advanced to the playoff semifinal",Sports
+news,"The swimmer qualified for the Olympic final",Sports
+news,"A cricket side won the series after a tense match",Sports
+news,"The runner completed the marathon in record time",Sports
+news,"The hockey team scored in overtime to secure victory",Sports
+news,"The golf tournament ended with a sudden-death playoff",Sports
+news,"The club appointed a new coach after a poor season",Sports
+news,"A referee review changed the result of the semifinal",Sports
+news,"The stadium opened for the first match of the season",Sports
+news,"The cycling team won the team time trial",Sports
+news,"Supporters celebrated the national squad's qualification",Sports
+news,"The goalkeeper made several saves to protect the lead",Sports
+news,"The film festival will feature independent directors",Entertainment
+news,"The singer released a new album and announced a tour",Entertainment
+news,"The actors discussed their roles in a television series",Entertainment
+news,"The audience applauded the musical performance",Entertainment
+news,"A popular show returns with a new season next month",Entertainment
+news,"The museum opened an exhibition about contemporary art",Entertainment
+news,"A director won an award for the year's best film",Entertainment
+news,"The theater announced tickets for a national tour",Entertainment
+news,"A streaming platform premiered a new documentary series",Entertainment
+news,"The band played its final concert in the stadium",Entertainment
+news,"A novelist released a sequel after years of planning",Entertainment
+news,"Critics praised the lead actor's performance",Entertainment
+news,"The awards ceremony honored artists across five categories",Entertainment
+news,"A television comedy was renewed for another season",Entertainment
+news,"The orchestra performed a new composition",Entertainment
+news,"A celebrity launched a fashion line at the city gallery",Entertainment
+news,"The dance company toured three countries this year",Entertainment
+news,"A video game studio revealed its next major title",Entertainment
+news,"The publisher postponed the release of a memoir",Entertainment
+news,"Fans lined up for the premiere of the science fiction film",Entertainment
